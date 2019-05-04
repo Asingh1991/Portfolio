@@ -1,0 +1,82 @@
+
+body {
+    background: url("../images/dark-denim-3.png");
+}
+
+.borderOrange {
+    border: 1px solid orange;
+}
+
+
+.content {
+    margin: 1em 2em;
+    padding: 1em;
+    background-color: #fff;
+    border: 4px solid #897653;
+    overflow: auto;
+}
+
+.image1 {
+    float: left;
+    margin: .5em 1.5em .5em .5em;
+    border: 4px solid #897653;
+    height: 220px;
+}
+
+p {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    padding: .25em;
+}
+
+#contact {
+    margin: 2em;
+}
+
+.portfolioButton {
+    background-color:#897653;
+    border: 1px solid #897653
+}
+
+.portfolioButton:hover {
+    color: #897653;
+    background-color:#E6D6BA;
+    border: 1px solid #897653
+}
+
+#projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#projectList {
+    text-align: left;
+    width: 100%;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #36424E;
+}
+
+.subitem {
+    background-color: #BACEE6;
+    color: #36424E;
+}
+
+
+/* Footer All Pages */
+
+.footer {
+    width: 100%;
+    height: 50px;
+    border-top: 4px solid #E6D6BA;
+    background-color: #36424E;
+}
+
+.copyRightStyle {
+    font-family: Catamaran, Arial, sans-serif;
+    font-size: 12pt;
+    color: #F3FDFE;
+    margin: 12px 20px;
+}
